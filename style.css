@@ -1,0 +1,342 @@
+h1,h2,h3,h4,h5,h6 {
+  font-size: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+html body, 
+html body.mobile {
+  font-size: 1.4em;
+}
+
+body div.navbar{
+  height: 18px;
+}
+body.mobile div.navbar{
+  height: 0;
+}
+
+/* ヘッダー */
+.header-inner{
+  position: relative;
+  width: 100%;
+}
+#header{
+  height: 104px;
+}
+#Header1{
+  width: 100%;
+  top: 10px;
+  display: table;
+}
+#Header1 #header-inner{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  background-image: url(http://4.bp.blogspot.com/-NrcTlMNXG-A/VLaEJbRCB8I/AAAAAAAAAr4/hHm5UTXglx0/s400/RN%25E3%2583%25AD%25E3%2582%25B4_tp2s.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  overflow-x: visible;
+  overflow-y: visible;
+  white-space: nowrap;
+}
+#header-inner .titlewrapper{
+  padding: 0px;
+  display: inline-block;
+}
+#header-inner h1{
+  margin: 28px 0 0 91px;
+  padding: 0 20px;
+  text-align: center;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  font-size: 1.8rem;
+  font-family: Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+  letter-spacing: 0.2em;
+}
+body:not(.mobile) .blog-mobile-link{
+  position: absolute;
+  bottom: 0px;
+  width: 810px;
+  padding: 32px 15px 0;
+  text-align: right;
+}
+body:not(.mobile) .blog-mobile-link a{
+  margin: 0 5px;
+  display: inline-block;
+}
+#header .HTML{
+  margin: 0;
+}
+#shoulder{
+  position: absolute;
+  top: 5px;
+  left: 18px;
+  font-family: Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+  font-size: 1.8rem;
+}
+.widget .title {
+  margin: 0 0 9px 0;
+  padding: 0 0 5px 0;
+  border-bottom: solid 1px #ccc;
+  font-size: 1.8rem;
+  font-family: Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+}
+.widget p{
+  margin: 0.5em 0;
+}
+
+/* 本文 */
+#Blog1 h2{
+  font-size: 3.6rem;
+/*  font-family: Georgia, Utopia, 'Palatino Linotype', Palatino, serif;*/
+}
+#Blog1 h2 a:hover{
+  text-decoration: none;
+}
+#Blog1 .post-body{
+  padding: 20px 0 10px 0;
+  font-size: 1.5rem;
+}
+#Blog1 blockquote{
+  margin: 20px 0 20px 0;
+  padding: 10px;
+  background-color: #333333;
+}
+#Blog1 p{
+  margin: 0;
+  line-height: 1.8em;
+  text-indent: 1em;
+}
+#Blog1 h3,
+#Blog1 h5{
+  margin: 2em 0 1em 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: left;
+}
+
+.addthis_inline_share_toolbox{
+  margin: 60px 0 20px;
+}
+#related-posts{
+/*  margin-top: 3em;*/
+  padding: 5px 0;
+}
+#related-posts div,
+#HTML1 div.title{
+  padding-bottom: 0.5em;
+  border-bottom: solid 1px #ddd;
+  font-size: 1.8rem;
+}
+#related-posts ul,
+#HTML1 ul{
+  margin: 0;
+  padding: 0;
+}
+#related-posts li,
+#HTML1 li{
+  list-style-type: none;
+  border-bottom: dashed 1px #999;
+}
+#related-posts li:last-child,
+#HTML1 li:last-child{
+  border-bottom-style: solid;
+}
+#related-posts ul li a,
+#HTML1 ul li a{
+  position: relative;
+  padding: 0.5em 2em 0.5em 0;
+  display: block;
+  font-size: 1.5rem;
+}
+#HTML1 ul li a{
+  position: relative;
+  padding: 0.3em 2em 0.3em 0;
+  display: block;
+}
+#related-posts ul li a::after,
+#HTML1 ul li a:after{
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  margin-top: -10.5px;
+  font-family: FontAwesome;
+  content: "\f054";
+  color: #cccccc;
+}
+#comments{
+  display: none;
+}
+
+/* モバイル用処理 */
+.mobile .header-outer{
+  margin: 0;
+}
+.mobile #Header1{
+  top: 50%;
+  transform: translateY(-50%);
+}
+.mobile #Header1 #header-inner{
+  height: 60px;
+  background-position: center;
+  overflow: hidden;
+  white-space: normal;
+  text-align: center;
+}
+.mobile #header-inner h1{
+  min-width: 176px;
+  margin: 0 0 -10px 0;
+  padding: 0 5px;
+}
+.mobile #header-inner h1,
+.mobile #header-inner h1 a{
+    color: #fff;
+}
+.mobile #Blog1 .mobile-date-outer,
+.mobile .content-outer,
+.mobile .date-outer .post,
+.mobile #Profile1,
+.mobile #HTML1,
+.mobile #HTML3,
+.mobile #PageList2 ul{
+  background: transparent url(http://www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left;
+}
+.mobile #main{
+    padding: 10px 0 0;
+}
+.mobile .main-outer{
+    margin: 0;
+}
+.mobile .date-outer .post{
+  padding: 10px;
+}
+.mobile #Blog1 h2{
+  font-size: 1.8rem;
+}
+.mobile #Profile1{
+  margin: 0 10px;
+  padding: 10px;
+}
+.mobile #HTML1{
+  margin: 0 10px;
+  padding: 10px;
+}
+.mobile #HTML3{
+  margin: 10px;
+  padding: 10px;
+}
+.widget h2 {
+  margin: 0;
+  padding: 0;
+}
+.mobile *#Blog1 .mobile-date-outer{
+  margin: 0 10px 10px 10px;
+}
+.mobile .post-footer{
+  display: none;
+}
+
+/* ページャー */
+html #blog-pager, html #blog-pager2{
+  margin: 0 -1em 1em;
+  padding: 0;
+  font-size: 1.5rem;
+}
+html #blog-pager a, html #blog-pager2 a{
+  width: 100%;
+  display: block;	
+}
+html #blog-pager a:hover, html #blog-pager2 a:hover{
+  text-decoration: none;
+}
+.blog-pager{
+  height: 26px;
+}
+.mobile-link-button {
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  height: 20px;
+  padding: 3px 6px;
+  font-size: 1.5rem;
+}
+html .blog-pager #blog-pager-newer-link,
+html .blog-pager #blog-pager-older-link {
+  width: 30px;
+}
+html #blog-pager-newer-link {
+  margin-right: 0;
+  float: right;
+}
+html #blog-pager-older-link { 
+  margin-left: 0; 
+  float: left;
+}
+html #blog-pager-home-link {
+  width: 140px;
+  margin: 0 auto;
+}
+.mobile #blog-pager{
+  margin: -15px 10px 15px 10px;
+}
+.mobile #blog-pager2{
+  margin: 5px 10px -5px 10px;
+  text-align: center;
+}
+.blog-pager .mobile-desktop-link{
+  margin-top: 10px
+}
+html .blog-pager .blog-pager-newer-link,
+html .blog-pager .blog-pager-older-link {
+  margin: -7px 0;
+  font-size: 2.25rem;
+}
+html .mobile .blog-pager .blog-pager-newer-link,
+html .mobile .blog-pager .blog-pager-older-link {
+  margin: 0;
+}
+
+body.mobile #PageList2{
+  margin-bottom: 0px;
+  font-size: 1.5rem;
+}
+body.mobile #PageList2 .title{
+  height: 30px;
+  margin: 0px;
+  padding: 0px;
+  border-bottom: none;
+  font-size: 1.5rem;
+  color: black;
+  line-height: 30px;
+  text-align: center;
+  background-image: url(http://4.bp.blogspot.com/-L7V1EssZbt0/WN6JORUnoWI/AAAAAAAABWg/O12Kin6jfH0hUdPACUIIwBLZjjwICUsWQCEw/w140-h140-p/icon_23.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+body.mobile #PageList2 .title.open{
+  background-image: url(http://4.bp.blogspot.com/-0aUJluQ55kU/WN6LxexMH0I/AAAAAAAABWs/8OFjxIpHhn0N26eRoFyZEkbR7bk6X0_6ACLcB/w140-h140-p/icon_140.png
+);
+}
+body.mobile #PageList2 ul{
+  padding: 0 5px 5px;
+  display: none;
+  color: black;
+}
+body.mobile #PageList2 li{
+  padding: 5px 0;
+  border-top: dashed 1px rgba(128, 128, 128, .5);
+}
+body.mobile #PageList2 li:first-child{
+  border-top-style: solid;
+}
+body.mobile #PageList2 li a{
+  display: block;
+}
+body.mobile .status-msg-wrap{
+  width: auto;
+  margin: -15px 10px 10px
+}
