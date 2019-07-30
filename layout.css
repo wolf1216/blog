@@ -1,0 +1,24 @@
+.tabs-inner .widget li{
+  display: inline;
+}
+.widget-item-control{
+  float: right;
+  position: relative;
+  margin-top: -30px;
+}
+.widget-item-control a{
+  opacity: 0.5;
+}
+.column-center-outer,
+.column-right-outer{
+  float: left;
+}
+#main{
+  margin: 0 15px;
+}
+.column-right-inner{
+  padding-left: 15px;
+}
+.widget{
+  margin: 30px 0;
+}
